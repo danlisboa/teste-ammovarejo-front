@@ -34,7 +34,7 @@ class HeaderComponent extends Component {
             </div>
           </nav>
           <div className="row" style={{'margin-top': '10px'}}>
-            <div className="col-sm"><h3>{this.props.products.productSearch}</h3></div>
+            <div className="col-sm"><h3>{this.props.products.productSearch ? this.props.products.productSearch : 'Lista de produtos'}</h3></div>
           </div>
         </div>
       );
